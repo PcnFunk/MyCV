@@ -1,0 +1,143 @@
+body {
+  background: url("../img/bg.jpg");
+  background-size: 100%;
+  font-family: "Trebuchet MS";
+  overflow: hidden;
+}
+
+a {
+  color: silver;
+  text-decoration: none;
+}
+a:hover {
+  color: #6495ED;
+  -webkit-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+.cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 99%;
+  height: 99%;
+  margin: 20px 5px 5px 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.cv__main {
+  margin: 5px 0 5px 155px;
+  width: 15%;
+  height: 55px;
+  font-size: 23px;
+}
+.cv__main__value {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 1px;
+}
+.cv__main__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px 0 5px 5px;
+  color: white;
+  width: 65%;
+  margin: 5px 5px 5px 0;
+  position: relative;
+}
+.cv__main__menu__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 3px;
+}
+.cv__main__menu__links__github {
+  border: 3px #6495ED solid;
+  border-radius: 20px;
+  width: 70px;
+  text-align: center;
+  height: 30px;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  height: 400px;
+  position: relative;
+}
+.info__photo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 313px;
+  width: 240px;
+  padding: 0;
+  position: absolute;
+  left: 140px;
+  top: 40px;
+  border: 10px #6495ED solid;
+  border-radius: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.info__photo__contact {
+  height: 80px;
+  width: 500px;
+  position: absolute;
+  left: -85px;
+  top: 100%;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 25px;
+  margin: 35px 0 0 20px;
+}
+.info__text {
+  display: block;
+  width: 500px;
+  height: 365px;
+  position: relative;
+  top: 70px;
+  left: 700px;
+  color: white;
+  font-size: 25px;
+}
+
+.courses {
+  width: 500px;
+  height: 170px;
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  color: white;
+  font-size: 25px;
+}
+
+.mail {
+  background: url(../img/mailicon.png) 0 no-repeat;
+  padding: 0 0 5px 33px;
+}
+
+.phone {
+  background: url(../img/phoneicon.png) 0 no-repeat;
+  padding: 0 0 0 33px;
+}
+
+.telegram {
+  background: url(../img/tgicon.png) 0 no-repeat;
+  padding: 0 0 0 33px;
+}
